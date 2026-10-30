@@ -1,6 +1,6 @@
 {
   "name": "flappybird-showcase",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "A small Flappy Bird game for demonstrating Git changes and releases.",
   "scripts": {
