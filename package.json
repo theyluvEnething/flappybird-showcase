@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node scripts/serve.cjs",
     "test": "node --test --test-reporter=spec test/*.test.cjs",
-    "check": "node --check src/main.js && node --check scripts/serve.cjs"
+    "check": "node --check src/main.js && node --check scripts/serve.cjs && node --check scripts/version.cjs && node --check scripts/package.cjs && node -e \"require('./src/main.js').createGame()\" && bash -n scripts/release.sh"
   },
   "engines": {
     "node": ">=22"
